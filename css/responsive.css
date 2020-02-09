@@ -1,0 +1,102 @@
+/* タブレット向けレイアウト */
+@media all and (max-width: 1000px) {
+  
+  nav {
+    width: 750px;
+    font-size: 12px;
+  }
+
+  nav li {
+    width: 90px;
+  }
+
+  .box1-right, .box2-right {
+    font-size: 10px;
+    padding-top: 10px;
+  }
+
+  .box1-bottom, .box2-bottom{
+    padding: 10px 10px;
+    font-size: 10px;
+  }
+
+  table {
+    width: 40%;
+    height: 200px;
+    font-size: 10px;
+    line-height: 15px;
+    margin-left: 10%;
+  }
+
+  footer {
+    text-align: center;
+    font-size: 10px;
+  }
+
+  #page_top{
+    right: 130px;
+    bottom: 20px;
+  }
+  
+} 
+  /* スマホ向けレイアウト */
+  @media all and (max-width: 670px) {
+
+    nav h1 {
+      width: 120px;
+    }
+
+    nav {
+      width: 350px;
+      font-size: 10px;
+    }
+
+    nav li {
+      width: 40px;
+    }
+
+    ul#demo2_headline li {
+      font-size: 6px;
+    }
+
+    ul#demo2_description li {
+      font-size: 6px;
+    }
+
+    .box1-left img, .box2-left img {
+      height: 60px;
+    }
+
+    .box1-right, .box2-right {
+      font-size: 10px;
+      padding-top: 10px;
+    }
+
+    .box1-bottom, .box2-bottom{
+      padding: 10px 10px;
+      font-size: 10px;
+    }
+
+    .about {
+      height: 500px;
+    }
+
+    table {
+      width: 40%;
+      height: 100px;
+      font-size: 6px;
+      line-height: 10px;
+      margin-left: 5%;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 10px;
+    }
+
+    #page_top{
+      right: 60px;
+      bottom: 20px;
+    }
+
+  }
